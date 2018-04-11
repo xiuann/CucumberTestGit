@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestCases_Manager]">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="com.testcases.manager.TS_01_LoginAndPassword">
+        <methods>
+          <include name="tc_03_negativeChangePassword"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testcases.manager.TS_01_LoginAndPassword -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [TestCases_Manager] -->
