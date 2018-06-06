@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.030898">
+<testcase classname="Facebook Login" name="Positive Login" time="14.03787">
+<system-out><![CDATA[Given I am on Facebook Login Page...........................................passed
+When I provide postive id and password......................................passed
+Then I should see the Facebook feed homepage................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Radio Button" name="Male Button Check" time="5.993028">
+<system-out><![CDATA[Given I am on Selenium Easy page............................................passed
+When I click Input Forms....................................................passed
+Then I click Radio Buttons Demo.............................................passed
+Then I click Male Button under Radio Button Demo............................passed
+Then I click get checked value..............................................passed
+Then I should see Radio button Male is checked..............................passed
+Then Close the browser1.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Positive Login",
+        "description": "",
+        "id": "facebook-login;positive-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6087505232,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Facebook Login Page",
+            "match": {
+              "location": "Scenario01_Facebook_PostiveLogin.i_am_on_Facebook_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5770172422,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I provide postive id and password",
+            "match": {
+              "location": "Scenario01_Facebook_PostiveLogin.i_provide_postive_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33469,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the Facebook feed homepage",
+            "match": {
+              "location": "Scenario01_Facebook_PostiveLogin.i_should_see_the_Facebook_feed_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180158383,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "Scenario01_Facebook_PostiveLogin.close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "facebookLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Male Button Check",
+        "description": "",
+        "id": "radio-button;male-button-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5291147866,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Selenium Easy page",
+            "match": {
+              "location": "RadioButton.i_am_on_Selenium_Easy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94871449,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Input Forms",
+            "match": {
+              "location": "RadioButton.i_click_Input_Forms()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238362520,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Radio Buttons Demo",
+            "match": {
+              "location": "RadioButton.i_click_Radio_Buttons_Demo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75909922,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Male Button under Radio Button Demo",
+            "match": {
+              "location": "RadioButton.i_click_Male_Button_under_Radio_Button_Demo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72108781,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click get checked value",
+            "match": {
+              "location": "RadioButton.i_click_get_checked_value()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45554342,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Radio button Male is checked",
+            "match": {
+              "location": "RadioButton.i_should_see_Radio_button_Male_is_checked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175072940,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser1",
+            "match": {
+              "location": "RadioButton.close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Radio Button",
+    "description": "",
+    "id": "radio-button",
+    "keyword": "Feature",
+    "uri": "radioButton.feature"
+  }
+]
